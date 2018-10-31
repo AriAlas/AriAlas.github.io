@@ -1,0 +1,50 @@
+/*********Header********/
+body {
+    background: gray;
+}
+
+.main-header {
+    width: 75%;
+    height: 400px;
+    margin: 0 auto;
+    border: 2px solid black;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 30px;
+    position: relative;
+}
+
+.main-header h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+
+nav {
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+    color: white;
+    border-radius: 27px;
+}
+li {
+    list-style: none;
+    display: inline-block;  
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.main-content {
+    width: 75%;
+    border: 2px solid black;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 30px;
+}
